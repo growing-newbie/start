@@ -5,6 +5,11 @@
  <meta charset="utf-8">
 <link rel="stylesheet"
 href="style.css">
+<style>
+.embed-container { position: relative; padding-bottom: 50%; height:0%; overflow: hidden; max-width: 100%; margin:5%; }
+.embed-container iframe, .embed-container object, .embed-container embed
+ { position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+</style>
 </head>
 <body>
 <h1>WEB</h1>
@@ -15,9 +20,11 @@ href="style.css">
   <li><a href="3.html"><u>JavsScript</u></a></li>
 </ol>
 <div id="article">
-<p align="middle"><iframe width="900" height="500" src="https://www.youtube.com/embed/c78j19OpfN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class='embed-container'>
+<p align="middle"><iframe src="https://www.youtube.com/embed/c78j19OpfN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 >
 </p>
+</div>
 <h2>WEB</h2>
 <p>  WWW" and "The Web" redirect here. For other uses of WWW, see WWW (disambiguation). For uses of web, see Web (disambiguation).
 For the first web software, see WorldWideWeb.
